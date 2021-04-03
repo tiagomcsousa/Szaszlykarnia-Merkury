@@ -5,7 +5,8 @@ function generateHome() {
 
     const firstTitle = document.createElement('div');
     firstTitle.classList.add('first-title');
-    firstTitle.textContent = 'BEST IN SZCZECIN';
+    firstTitle.textContent = 'THE BEST IN SZCZECIN';
+
 
     const imgHome = document.createElement('img');
     imgHome.src = 'imgmenu.jpeg';
@@ -14,6 +15,7 @@ function generateHome() {
     const bottomTitle = document.createElement('div');
     bottomTitle.classList.add('bottom-title');
     bottomTitle.textContent = '24H OPEN FOR YOU';
+    bottomTitle.style.color = '#d51016';
 
     home.appendChild(firstTitle);
     home.appendChild(imgHome);
