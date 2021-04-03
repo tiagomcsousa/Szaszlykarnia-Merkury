@@ -4,7 +4,7 @@ function generateMenuLink() {
     menu.classList.add('p-menu');
     menu.textContent = 'MENU';
     menu.addEventListener('click', (e) => {
-        alert('menu');
+        menu.style.color = 'black';
     });
 
     return menu;
