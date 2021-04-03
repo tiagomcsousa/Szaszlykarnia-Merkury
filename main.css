@@ -21,14 +21,25 @@ header {
     overflow: auto;
 }
 
+
+/* .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    margin-top: 10%;
+    margin-bottom: 30px;
+} */
+
 .home {
-    background: black;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: auto;
 }
 
 .p-menu {
@@ -55,10 +66,11 @@ header {
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
+    cursor: pointer;
 }
 
 .home .first-img {
-    width: 30%;
+    width: 400px;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     opacity: 90%;
@@ -96,11 +108,42 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-top: 5%;
 }
 
 .meal img {
     border-radius: 2%;
     width: 300px;
     height: 180px;
+    margin-bottom: 35px;
+}
+
+.meal h2 {
+    color: #d51016;
+    margin: 0;
+}
+
+.meal p {
+    font-size: 18px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.contacts img {
+    width: 500px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    opacity: 90%;
+    border-radius: 2%;
+}
+
+.contacts h2,
+h4 {
+    color: #d51016;
 }
